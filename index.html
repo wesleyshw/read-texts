@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Robô para ler textos</title>
+</head>
+<body class="m-auto text-center" style="background: #1f2d3d;">
+    <div class="border border-purple-700 text-white rounded m-4" contenteditable oninput="setText(event)">Digite seu texto aqui</div>
+    <button onclick="speak()" class="p-3 bg-purple-200 rounded shadow">Falar</button>
+    <button onclick="stop()" class="p-3 bg-purple-700 text-white rounded shadow">Parar</button>
+</body>
+</html>
