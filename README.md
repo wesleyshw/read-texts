@@ -1,1 +1,1 @@
-# read-texts
+☕ Robô para ler textos com js e tailwindcss
